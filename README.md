@@ -274,6 +274,12 @@
 |266|[Smallest Missing Genetic Value in Each Subtree](src\leetcode_2003_smallest_missing_genetic_value_in_each_subtree.py)|[2003](https://leetcode.com/problems/smallest-missing-genetic-value-in-each-subtree)||[Hard](#Hard)|
 |267|[Maximum Product of the Length of Two Palindromic Subsequences](src\leetcode_2002_maximum_product_of_the_length_of_two_palindromic_subsequences.py)|[2002](https://leetcode.com/problems/maximum-product-of-the-length-of-two-palindromic-subsequences)||[Medium](#Medium)|
 |268|[Reverse Prefix of Word](src\leetcode_2000_reverse_prefix_of_word.py)|[2000](https://leetcode.com/problems/reverse-prefix-of-word)||[Easy](#Easy)|
+|269|[Count Special Quadruplets](src\leetcode_1995_count_special_quadruplets.py)|[1995](https://leetcode.com/problems/count-special-quadruplets)|[Array](#array), [Enumeration](#enumeration)|[Easy](#Easy)|
+|270|[First Day Where You Have Been in All the Rooms](src\leetcode_1997_first_day_where_you_have_been_in_all_the_rooms.py)|[1997](https://leetcode.com/problems/first-day-where-you-have-been-in-all-the-rooms)|[Array](#array), [Dynamic Programming](#dynamic-programming)|[Medium](#Medium)|
+|271|[The Number of Weak Characters in the Game](src\leetcode_1996_the_number_of_weak_characters_in_the_game.py)|[1996](https://leetcode.com/problems/the-number-of-weak-characters-in-the-game)|[Array](#array), [Stack](#stack), [Greedy](#greedy), [Sorting](#sorting), [Monotonic Stack](#monotonic-stack)|[Medium](#Medium)|
+|272|[Maximum Number of Balloons](src\leetcode_1189_maximum_number_of_balloons.py)|[1189](https://leetcode.com/problems/maximum-number-of-balloons)|[Hash Table](#hash-table), [String](#string), [Counting](#counting)|[Easy](#Easy)|
+|273|[Reverse Only Letters](src\leetcode_917_reverse_only_letters.py)|[917](https://leetcode.com/problems/reverse-only-letters)|[Two Pointers](#two-pointers), [String](#string)|[Easy](#Easy)|
+|274|[Number of Unique Good Subsequences](src\leetcode_1987_number_of_unique_good_subsequences.py)|[1987](https://leetcode.com/problems/number-of-unique-good-subsequences)|[String](#string), [Dynamic Programming](#dynamic-programming)|[Hard](#Hard)|
 
 # <a name='difficulty'></a>Difficulty
 ## <a name="Easy"></a>Easy Questions
@@ -375,6 +381,9 @@
 |93|[Valid Parentheses](src\leetcode_20_valid_parentheses.py)|[20](https://leetcode.com/problems/valid-parentheses)|[String](#string), [Stack](#stack)|
 |94|[Missing Number](src\leetcode_268_missing_number.py)|[268](https://leetcode.com/problems/missing-number)|[Array](#array), [Hash Table](#hash-table), [Math](#math), [Bit Manipulation](#bit-manipulation), [Sorting](#sorting)|
 |95|[Reverse Prefix of Word](src\leetcode_2000_reverse_prefix_of_word.py)|[2000](https://leetcode.com/problems/reverse-prefix-of-word)||
+|96|[Count Special Quadruplets](src\leetcode_1995_count_special_quadruplets.py)|[1995](https://leetcode.com/problems/count-special-quadruplets)|[Array](#array), [Enumeration](#enumeration)|
+|97|[Maximum Number of Balloons](src\leetcode_1189_maximum_number_of_balloons.py)|[1189](https://leetcode.com/problems/maximum-number-of-balloons)|[Hash Table](#hash-table), [String](#string), [Counting](#counting)|
+|98|[Reverse Only Letters](src\leetcode_917_reverse_only_letters.py)|[917](https://leetcode.com/problems/reverse-only-letters)|[Two Pointers](#two-pointers), [String](#string)|
 ## <a name="Medium"></a>Medium Questions
 
 |ID|Problem|Leetcode ID|Categories|
@@ -512,6 +521,8 @@
 |131|[Largest Plus Sign](src\leetcode_764_largest_plus_sign.py)|[764](https://leetcode.com/problems/largest-plus-sign)|[Array](#array), [Dynamic Programming](#dynamic-programming)|
 |132|[Number of Pairs of Interchangeable Rectangles](src\leetcode_2001_number_of_pairs_of_interchangeable_rectangles.py)|[2001](https://leetcode.com/problems/number-of-pairs-of-interchangeable-rectangles)||
 |133|[Maximum Product of the Length of Two Palindromic Subsequences](src\leetcode_2002_maximum_product_of_the_length_of_two_palindromic_subsequences.py)|[2002](https://leetcode.com/problems/maximum-product-of-the-length-of-two-palindromic-subsequences)||
+|134|[First Day Where You Have Been in All the Rooms](src\leetcode_1997_first_day_where_you_have_been_in_all_the_rooms.py)|[1997](https://leetcode.com/problems/first-day-where-you-have-been-in-all-the-rooms)|[Array](#array), [Dynamic Programming](#dynamic-programming)|
+|135|[The Number of Weak Characters in the Game](src\leetcode_1996_the_number_of_weak_characters_in_the_game.py)|[1996](https://leetcode.com/problems/the-number-of-weak-characters-in-the-game)|[Array](#array), [Stack](#stack), [Greedy](#greedy), [Sorting](#sorting), [Monotonic Stack](#monotonic-stack)|
 ## <a name="Hard"></a>Hard Questions
 
 |ID|Problem|Leetcode ID|Categories|
@@ -556,6 +567,7 @@
 |38|[Basic Calculator](src\leetcode_224_basic_calculator.py)|[224](https://leetcode.com/problems/basic-calculator)|[Math](#math), [String](#string), [Stack](#stack), [Recursion](#recursion)|
 |39|[Arithmetic Slices II - Subsequence](src\leetcode_446_arithmetic_slices_ii_subsequence.py)|[446](https://leetcode.com/problems/arithmetic-slices-ii-subsequence)|[Array](#array), [Dynamic Programming](#dynamic-programming)|
 |40|[Smallest Missing Genetic Value in Each Subtree](src\leetcode_2003_smallest_missing_genetic_value_in_each_subtree.py)|[2003](https://leetcode.com/problems/smallest-missing-genetic-value-in-each-subtree)||
+|41|[Number of Unique Good Subsequences](src\leetcode_1987_number_of_unique_good_subsequences.py)|[1987](https://leetcode.com/problems/number-of-unique-good-subsequences)|[String](#string), [Dynamic Programming](#dynamic-programming)|
 
 # <a name='categories'></a>Categories
 ## <a name="array"></a>Array
@@ -713,6 +725,9 @@
 |149|[Pascal's Triangle](src\leetcode_118_pascals_triangle.py)|[118](https://leetcode.com/problems/pascals-triangle)|[Easy](#Easy)|
 |150|[Missing Number](src\leetcode_268_missing_number.py)|[268](https://leetcode.com/problems/missing-number)|[Easy](#Easy)|
 |151|[Arithmetic Slices II - Subsequence](src\leetcode_446_arithmetic_slices_ii_subsequence.py)|[446](https://leetcode.com/problems/arithmetic-slices-ii-subsequence)|[Hard](#Hard)|
+|152|[Count Special Quadruplets](src\leetcode_1995_count_special_quadruplets.py)|[1995](https://leetcode.com/problems/count-special-quadruplets)|[Easy](#Easy)|
+|153|[First Day Where You Have Been in All the Rooms](src\leetcode_1997_first_day_where_you_have_been_in_all_the_rooms.py)|[1997](https://leetcode.com/problems/first-day-where-you-have-been-in-all-the-rooms)|[Medium](#Medium)|
+|154|[The Number of Weak Characters in the Game](src\leetcode_1996_the_number_of_weak_characters_in_the_game.py)|[1996](https://leetcode.com/problems/the-number-of-weak-characters-in-the-game)|[Medium](#Medium)|
 ## <a name="backtracking"></a>Backtracking
 
 |ID|Problem|Leetcode ID|Difficulty|
@@ -859,6 +874,7 @@
 |8|[Redistribute Characters to Make All Strings Equal](src\leetcode_1897_redistribute_characters_to_make_all_strings_equal.py)|[1897](https://leetcode.com/problems/redistribute-characters-to-make-all-strings-equal)|[Easy](#Easy)|
 |9|[Check if All Characters Have Equal Number of Occurrences](src\leetcode_1941_check_if_all_characters_have_equal_number_of_occurrences.py)|[1941](https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences)|[Easy](#Easy)|
 |10|[First Unique Character in a String](src\leetcode_387_first_unique_character_in_a_string.py)|[387](https://leetcode.com/problems/first-unique-character-in-a-string)|[Easy](#Easy)|
+|11|[Maximum Number of Balloons](src\leetcode_1189_maximum_number_of_balloons.py)|[1189](https://leetcode.com/problems/maximum-number-of-balloons)|[Easy](#Easy)|
 ## <a name="data-stream"></a>Data Stream
 
 |ID|Problem|Leetcode ID|Difficulty|
@@ -953,6 +969,8 @@
 |41|[Largest Plus Sign](src\leetcode_764_largest_plus_sign.py)|[764](https://leetcode.com/problems/largest-plus-sign)|[Medium](#Medium)|
 |42|[Pascal's Triangle](src\leetcode_118_pascals_triangle.py)|[118](https://leetcode.com/problems/pascals-triangle)|[Easy](#Easy)|
 |43|[Arithmetic Slices II - Subsequence](src\leetcode_446_arithmetic_slices_ii_subsequence.py)|[446](https://leetcode.com/problems/arithmetic-slices-ii-subsequence)|[Hard](#Hard)|
+|44|[First Day Where You Have Been in All the Rooms](src\leetcode_1997_first_day_where_you_have_been_in_all_the_rooms.py)|[1997](https://leetcode.com/problems/first-day-where-you-have-been-in-all-the-rooms)|[Medium](#Medium)|
+|45|[Number of Unique Good Subsequences](src\leetcode_1987_number_of_unique_good_subsequences.py)|[1987](https://leetcode.com/problems/number-of-unique-good-subsequences)|[Hard](#Hard)|
 ## <a name="enumeration"></a>Enumeration
 
 |ID|Problem|Leetcode ID|Difficulty|
@@ -960,6 +978,7 @@
 |1|[Count Square Sum Triples](src\leetcode_1925_count_square_sum_triples.py)|[1925](https://leetcode.com/problems/count-square-sum-triples)|[Easy](#Easy)|
 |2|[Check if Move is Legal](src\leetcode_1958_check_if_move_is_legal.py)|[1958](https://leetcode.com/problems/check-if-move-is-legal)|[Medium](#Medium)|
 |3|[Count Primes](src\leetcode_204_count_primes.py)|[204](https://leetcode.com/problems/count-primes)|[Easy](#Easy)|
+|4|[Count Special Quadruplets](src\leetcode_1995_count_special_quadruplets.py)|[1995](https://leetcode.com/problems/count-special-quadruplets)|[Easy](#Easy)|
 ## <a name="game-theory"></a>Game Theory
 
 |ID|Problem|Leetcode ID|Difficulty|
@@ -1016,6 +1035,7 @@
 |34|[Minimum Time to Type Word Using Special Typewriter](src\leetcode_1974_minimum_time_to_type_word_using_special_typewriter.py)|[1974](https://leetcode.com/problems/minimum-time-to-type-word-using-special-typewriter)|[Easy](#Easy)|
 |35|[Maximum Matrix Sum](src\leetcode_1975_maximum_matrix_sum.py)|[1975](https://leetcode.com/problems/maximum-matrix-sum)|[Medium](#Medium)|
 |36|[Patching Array](src\leetcode_330_patching_array.py)|[330](https://leetcode.com/problems/patching-array)|[Hard](#Hard)|
+|37|[The Number of Weak Characters in the Game](src\leetcode_1996_the_number_of_weak_characters_in_the_game.py)|[1996](https://leetcode.com/problems/the-number-of-weak-characters-in-the-game)|[Medium](#Medium)|
 ## <a name="hash-function"></a>Hash Function
 
 |ID|Problem|Leetcode ID|Difficulty|
@@ -1068,6 +1088,7 @@
 |41|[Operations on Tree](src\leetcode_1993_operations_on_tree.py)|[1993](https://leetcode.com/problems/operations-on-tree)|[Medium](#Medium)|
 |42|[Roman to Integer](src\leetcode_13_roman_to_integer.py)|[13](https://leetcode.com/problems/roman-to-integer)|[Easy](#Easy)|
 |43|[Missing Number](src\leetcode_268_missing_number.py)|[268](https://leetcode.com/problems/missing-number)|[Easy](#Easy)|
+|44|[Maximum Number of Balloons](src\leetcode_1189_maximum_number_of_balloons.py)|[1189](https://leetcode.com/problems/maximum-number-of-balloons)|[Easy](#Easy)|
 ## <a name="heap-priority-queue"></a>Heap (Priority Queue)
 
 |ID|Problem|Leetcode ID|Difficulty|
@@ -1198,6 +1219,7 @@
 |2|[Maximum Subarray Min-Product](src\leetcode_1856_maximum_subarray_min_product.py)|[1856](https://leetcode.com/problems/maximum-subarray-min-product)|[Medium](#Medium)|
 |3|[Number of Visible People in a Queue](src\leetcode_1944_number_of_visible_people_in_a_queue.py)|[1944](https://leetcode.com/problems/number-of-visible-people-in-a-queue)|[Hard](#Hard)|
 |4|[Trapping Rain Water](src\leetcode_42_trapping_rain_water.py)|[42](https://leetcode.com/problems/trapping-rain-water)|[Hard](#Hard)|
+|5|[The Number of Weak Characters in the Game](src\leetcode_1996_the_number_of_weak_characters_in_the_game.py)|[1996](https://leetcode.com/problems/the-number-of-weak-characters-in-the-game)|[Medium](#Medium)|
 ## <a name="number-theory"></a>Number Theory
 
 |ID|Problem|Leetcode ID|Difficulty|
@@ -1334,6 +1356,7 @@
 |33|[Merge Sorted Array](src\leetcode_88_merge_sorted_array.py)|[88](https://leetcode.com/problems/merge-sorted-array)|[Easy](#Easy)|
 |34|[Orderly Queue](src\leetcode_899_orderly_queue.py)|[899](https://leetcode.com/problems/orderly-queue)|[Hard](#Hard)|
 |35|[Missing Number](src\leetcode_268_missing_number.py)|[268](https://leetcode.com/problems/missing-number)|[Easy](#Easy)|
+|36|[The Number of Weak Characters in the Game](src\leetcode_1996_the_number_of_weak_characters_in_the_game.py)|[1996](https://leetcode.com/problems/the-number-of-weak-characters-in-the-game)|[Medium](#Medium)|
 ## <a name="stack"></a>Stack
 
 |ID|Problem|Leetcode ID|Difficulty|
@@ -1348,6 +1371,7 @@
 |8|[Min Stack](src\leetcode_155_min_stack.py)|[155](https://leetcode.com/problems/min-stack)|[Easy](#Easy)|
 |9|[Valid Parentheses](src\leetcode_20_valid_parentheses.py)|[20](https://leetcode.com/problems/valid-parentheses)|[Easy](#Easy)|
 |10|[Basic Calculator](src\leetcode_224_basic_calculator.py)|[224](https://leetcode.com/problems/basic-calculator)|[Hard](#Hard)|
+|11|[The Number of Weak Characters in the Game](src\leetcode_1996_the_number_of_weak_characters_in_the_game.py)|[1996](https://leetcode.com/problems/the-number-of-weak-characters-in-the-game)|[Medium](#Medium)|
 ## <a name="string"></a>String
 
 |ID|Problem|Leetcode ID|Difficulty|
@@ -1426,6 +1450,9 @@
 |72|[Roman to Integer](src\leetcode_13_roman_to_integer.py)|[13](https://leetcode.com/problems/roman-to-integer)|[Easy](#Easy)|
 |73|[Valid Parentheses](src\leetcode_20_valid_parentheses.py)|[20](https://leetcode.com/problems/valid-parentheses)|[Easy](#Easy)|
 |74|[Basic Calculator](src\leetcode_224_basic_calculator.py)|[224](https://leetcode.com/problems/basic-calculator)|[Hard](#Hard)|
+|75|[Maximum Number of Balloons](src\leetcode_1189_maximum_number_of_balloons.py)|[1189](https://leetcode.com/problems/maximum-number-of-balloons)|[Easy](#Easy)|
+|76|[Reverse Only Letters](src\leetcode_917_reverse_only_letters.py)|[917](https://leetcode.com/problems/reverse-only-letters)|[Easy](#Easy)|
+|77|[Number of Unique Good Subsequences](src\leetcode_1987_number_of_unique_good_subsequences.py)|[1987](https://leetcode.com/problems/number-of-unique-good-subsequences)|[Hard](#Hard)|
 ## <a name="string-matching"></a>String Matching
 
 |ID|Problem|Leetcode ID|Difficulty|
@@ -1493,6 +1520,7 @@
 |25|[Palindrome Linked List](src\leetcode_234_palindrome_linked_list.py)|[234](https://leetcode.com/problems/palindrome-linked-list)|[Easy](#Easy)|
 |26|[Linked List Cycle](src\leetcode_141_linked_list_cycle.py)|[141](https://leetcode.com/problems/linked-list-cycle)|[Easy](#Easy)|
 |27|[Merge Sorted Array](src\leetcode_88_merge_sorted_array.py)|[88](https://leetcode.com/problems/merge-sorted-array)|[Easy](#Easy)|
+|28|[Reverse Only Letters](src\leetcode_917_reverse_only_letters.py)|[917](https://leetcode.com/problems/reverse-only-letters)|[Easy](#Easy)|
 ## <a name="union-find"></a>Union Find
 
 |ID|Problem|Leetcode ID|Difficulty|
