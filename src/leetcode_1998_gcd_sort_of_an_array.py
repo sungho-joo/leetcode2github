@@ -48,7 +48,44 @@ from typing import List
 
 class Solution:
     def gcdSort(self, nums: List[int]) -> bool:
-        pass
+        class DSU:
+            def __init__(self, n):
+                self._data = list(range(n))
+
+            def find(self, a):
+                if self._data[a] != a:
+                    self._data[a] = self.find(self._data[a])
+                return self._data[a]
+
+            def union(self, a, b):
+                a, b = self.find(a), self.find(b)
+
+                if a != b:
+                    self._data[b] = a
+
+        num_set = [i for i in range(10 ** 5 + 1)]
+        for i in range(2, 10 ** 5 + 1):
+            if num_set[i] == i:
+                pos = i * i
+                while pos < len(num_set):
+                    num_set[pos] = min(num_set[pos], i)
+                    pos += i
+
+        dsu = DSU(max(nums) + 1)
+        # union nums
+        for i, num in enumerate(nums):
+            val = num
+            while val > 1:
+                min_num = num_set[val]
+                dsu.union(min_num, num)
+                val //= min_num
+
+        sorted_num = sorted(nums)
+        for i in range(len(nums)):
+            if dsu.find(sorted_num[i]) != dsu.find(nums[i]):
+                return False
+
+        return True
 
 
 if __name__ == "__main__":
