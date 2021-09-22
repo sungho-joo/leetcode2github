@@ -280,6 +280,28 @@
 |272|[Maximum Number of Balloons](src\leetcode_1189_maximum_number_of_balloons.py)|[1189](https://leetcode.com/problems/maximum-number-of-balloons)|[Hash Table](#hash-table), [String](#string), [Counting](#counting)|[Easy](#Easy)|
 |273|[Reverse Only Letters](src\leetcode_917_reverse_only_letters.py)|[917](https://leetcode.com/problems/reverse-only-letters)|[Two Pointers](#two-pointers), [String](#string)|[Easy](#Easy)|
 |274|[Number of Unique Good Subsequences](src\leetcode_1987_number_of_unique_good_subsequences.py)|[1987](https://leetcode.com/problems/number-of-unique-good-subsequences)|[String](#string), [Dynamic Programming](#dynamic-programming)|[Hard](#Hard)|
+|275|[Longest Turbulent Subarray](src\leetcode_978_longest_turbulent_subarray.py)|[978](https://leetcode.com/problems/longest-turbulent-subarray)|[Array](#array), [Dynamic Programming](#dynamic-programming), [Sliding Window](#sliding-window)|[Medium](#Medium)|
+|276|[Spiral Matrix](src\leetcode_54_spiral_matrix.py)|[54](https://leetcode.com/problems/spiral-matrix)|[Array](#array), [Matrix](#matrix), [Simulation](#simulation)|[Medium](#Medium)|
+|277|[Expression Add Operators](src\leetcode_282_expression_add_operators.py)|[282](https://leetcode.com/problems/expression-add-operators)|[Math](#math), [String](#string), [Backtracking](#backtracking)|[Hard](#Hard)|
+|278|[Count Number of Pairs With Absolute Difference K](src\leetcode_2006_count_number_of_pairs_with_absolute_difference_k.py)|[2006](https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k)|[Array](#array)|[Easy](#Easy)|
+|279|[Find Original Array From Doubled Array](src\leetcode_2007_find_original_array_from_doubled_array.py)|[2007](https://leetcode.com/problems/find-original-array-from-doubled-array)|[Array](#array), [Hash Table](#hash-table), [Greedy](#greedy), [Sorting](#sorting)|[Medium](#Medium)|
+|280|[Maximum Earnings From Taxi](src\leetcode_2008_maximum_earnings_from_taxi.py)|[2008](https://leetcode.com/problems/maximum-earnings-from-taxi)|[Array](#array), [Binary Search](#binary-search), [Dynamic Programming](#dynamic-programming), [Sorting](#sorting)|[Medium](#Medium)|
+|281|[Minimum Number of Operations to Make Array Continuous](src\leetcode_2009_minimum_number_of_operations_to_make_array_continuous.py)|[2009](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-continuous)|[Array](#array), [Binary Search](#binary-search)|[Hard](#Hard)|
+|282|[Final Value of Variable After Performing Operations](src\leetcode_2011_final_value_of_variable_after_performing_operations.py)|[2011](https://leetcode.com/problems/final-value-of-variable-after-performing-operations)|[Array](#array), [String](#string), [Simulation](#simulation)|[Easy](#Easy)|
+|283|[Sum of Beauty in the Array](src\leetcode_2012_sum_of_beauty_in_the_array.py)|[2012](https://leetcode.com/problems/sum-of-beauty-in-the-array)|[Array](#array)|[Medium](#Medium)|
+|284|[Detect Squares](src\leetcode_2013_detect_squares.py)|[2013](https://leetcode.com/problems/detect-squares)|[Array](#array), [Hash Table](#hash-table), [Design](#design), [Counting](#counting)|[Medium](#Medium)|
+|285|[Distinct Subsequences](src\leetcode_115_distinct_subsequences.py)|[115](https://leetcode.com/problems/distinct-subsequences)|[String](#string), [Dynamic Programming](#dynamic-programming)|[Hard](#Hard)|
+|286|[Find Winner on a Tic Tac Toe Game](src\leetcode_1275_find_winner_on_a_tic_tac_toe_game.py)|[1275](https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game)|[Array](#array), [Hash Table](#hash-table), [Matrix](#matrix), [Simulation](#simulation)|[Easy](#Easy)|
+|287|[Max Consecutive Ones](src\leetcode_485_max_consecutive_ones.py)|[485](https://leetcode.com/problems/max-consecutive-ones)|[Array](#array)|[Easy](#Easy)|
+|288|[3Sum](src\leetcode_15_3sum.py)|[15](https://leetcode.com/problems/3sum)|[Array](#array), [Two Pointers](#two-pointers), [Sorting](#sorting)|[Medium](#Medium)|
+|289|[Longest Substring Without Repeating Characters](src\leetcode_3_longest_substring_without_repeating_characters.py)|[3](https://leetcode.com/problems/longest-substring-without-repeating-characters)|[Hash Table](#hash-table), [String](#string), [Sliding Window](#sliding-window)|[Medium](#Medium)|
+|290|[Longest Palindromic Substring](src\leetcode_5_longest_palindromic_substring.py)|[5](https://leetcode.com/problems/longest-palindromic-substring)|[String](#string), [Dynamic Programming](#dynamic-programming)|[Medium](#Medium)|
+|291|[Increasing Triplet Subsequence](src\leetcode_334_increasing_triplet_subsequence.py)|[334](https://leetcode.com/problems/increasing-triplet-subsequence)|[Array](#array), [Greedy](#greedy)|[Medium](#Medium)|
+|292|[Add Two Numbers](src\leetcode_2_add_two_numbers.py)|[2](https://leetcode.com/problems/add-two-numbers)|[Linked List](#linked-list), [Math](#math), [Recursion](#recursion)|[Medium](#Medium)|
+|293|[Odd Even Linked List](src\leetcode_328_odd_even_linked_list.py)|[328](https://leetcode.com/problems/odd-even-linked-list)|[Linked List](#linked-list)|[Medium](#Medium)|
+|294|[Intersection of Two Linked Lists](src\leetcode_160_intersection_of_two_linked_lists.py)|[160](https://leetcode.com/problems/intersection-of-two-linked-lists)|[Hash Table](#hash-table), [Linked List](#linked-list), [Two Pointers](#two-pointers)|[Easy](#Easy)|
+|295|[Maximum Length of a Concatenated String with Unique Characters](src\leetcode_1239_maximum_length_of_a_concatenated_string_with_unique_characters.py)|[1239](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters)|[Array](#array), [String](#string), [Backtracking](#backtracking), [Bit Manipulation](#bit-manipulation)|[Medium](#Medium)|
+|296|[GCD Sort of an Array](src\leetcode_1998_gcd_sort_of_an_array.py)|[1998](https://leetcode.com/problems/gcd-sort-of-an-array)|[Array](#array), [Math](#math), [Union Find](#union-find), [Sorting](#sorting)|[Hard](#Hard)|
 
 # <a name='difficulty'></a>Difficulty
 ## <a name="Easy"></a>Easy Questions
@@ -384,6 +406,11 @@
 |96|[Count Special Quadruplets](src\leetcode_1995_count_special_quadruplets.py)|[1995](https://leetcode.com/problems/count-special-quadruplets)|[Array](#array), [Enumeration](#enumeration)|
 |97|[Maximum Number of Balloons](src\leetcode_1189_maximum_number_of_balloons.py)|[1189](https://leetcode.com/problems/maximum-number-of-balloons)|[Hash Table](#hash-table), [String](#string), [Counting](#counting)|
 |98|[Reverse Only Letters](src\leetcode_917_reverse_only_letters.py)|[917](https://leetcode.com/problems/reverse-only-letters)|[Two Pointers](#two-pointers), [String](#string)|
+|99|[Count Number of Pairs With Absolute Difference K](src\leetcode_2006_count_number_of_pairs_with_absolute_difference_k.py)|[2006](https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k)|[Array](#array)|
+|100|[Final Value of Variable After Performing Operations](src\leetcode_2011_final_value_of_variable_after_performing_operations.py)|[2011](https://leetcode.com/problems/final-value-of-variable-after-performing-operations)|[Array](#array), [String](#string), [Simulation](#simulation)|
+|101|[Find Winner on a Tic Tac Toe Game](src\leetcode_1275_find_winner_on_a_tic_tac_toe_game.py)|[1275](https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game)|[Array](#array), [Hash Table](#hash-table), [Matrix](#matrix), [Simulation](#simulation)|
+|102|[Max Consecutive Ones](src\leetcode_485_max_consecutive_ones.py)|[485](https://leetcode.com/problems/max-consecutive-ones)|[Array](#array)|
+|103|[Intersection of Two Linked Lists](src\leetcode_160_intersection_of_two_linked_lists.py)|[160](https://leetcode.com/problems/intersection-of-two-linked-lists)|[Hash Table](#hash-table), [Linked List](#linked-list), [Two Pointers](#two-pointers)|
 ## <a name="Medium"></a>Medium Questions
 
 |ID|Problem|Leetcode ID|Categories|
@@ -523,6 +550,19 @@
 |133|[Maximum Product of the Length of Two Palindromic Subsequences](src\leetcode_2002_maximum_product_of_the_length_of_two_palindromic_subsequences.py)|[2002](https://leetcode.com/problems/maximum-product-of-the-length-of-two-palindromic-subsequences)||
 |134|[First Day Where You Have Been in All the Rooms](src\leetcode_1997_first_day_where_you_have_been_in_all_the_rooms.py)|[1997](https://leetcode.com/problems/first-day-where-you-have-been-in-all-the-rooms)|[Array](#array), [Dynamic Programming](#dynamic-programming)|
 |135|[The Number of Weak Characters in the Game](src\leetcode_1996_the_number_of_weak_characters_in_the_game.py)|[1996](https://leetcode.com/problems/the-number-of-weak-characters-in-the-game)|[Array](#array), [Stack](#stack), [Greedy](#greedy), [Sorting](#sorting), [Monotonic Stack](#monotonic-stack)|
+|136|[Longest Turbulent Subarray](src\leetcode_978_longest_turbulent_subarray.py)|[978](https://leetcode.com/problems/longest-turbulent-subarray)|[Array](#array), [Dynamic Programming](#dynamic-programming), [Sliding Window](#sliding-window)|
+|137|[Spiral Matrix](src\leetcode_54_spiral_matrix.py)|[54](https://leetcode.com/problems/spiral-matrix)|[Array](#array), [Matrix](#matrix), [Simulation](#simulation)|
+|138|[Find Original Array From Doubled Array](src\leetcode_2007_find_original_array_from_doubled_array.py)|[2007](https://leetcode.com/problems/find-original-array-from-doubled-array)|[Array](#array), [Hash Table](#hash-table), [Greedy](#greedy), [Sorting](#sorting)|
+|139|[Maximum Earnings From Taxi](src\leetcode_2008_maximum_earnings_from_taxi.py)|[2008](https://leetcode.com/problems/maximum-earnings-from-taxi)|[Array](#array), [Binary Search](#binary-search), [Dynamic Programming](#dynamic-programming), [Sorting](#sorting)|
+|140|[Sum of Beauty in the Array](src\leetcode_2012_sum_of_beauty_in_the_array.py)|[2012](https://leetcode.com/problems/sum-of-beauty-in-the-array)|[Array](#array)|
+|141|[Detect Squares](src\leetcode_2013_detect_squares.py)|[2013](https://leetcode.com/problems/detect-squares)|[Array](#array), [Hash Table](#hash-table), [Design](#design), [Counting](#counting)|
+|142|[3Sum](src\leetcode_15_3sum.py)|[15](https://leetcode.com/problems/3sum)|[Array](#array), [Two Pointers](#two-pointers), [Sorting](#sorting)|
+|143|[Longest Substring Without Repeating Characters](src\leetcode_3_longest_substring_without_repeating_characters.py)|[3](https://leetcode.com/problems/longest-substring-without-repeating-characters)|[Hash Table](#hash-table), [String](#string), [Sliding Window](#sliding-window)|
+|144|[Longest Palindromic Substring](src\leetcode_5_longest_palindromic_substring.py)|[5](https://leetcode.com/problems/longest-palindromic-substring)|[String](#string), [Dynamic Programming](#dynamic-programming)|
+|145|[Increasing Triplet Subsequence](src\leetcode_334_increasing_triplet_subsequence.py)|[334](https://leetcode.com/problems/increasing-triplet-subsequence)|[Array](#array), [Greedy](#greedy)|
+|146|[Add Two Numbers](src\leetcode_2_add_two_numbers.py)|[2](https://leetcode.com/problems/add-two-numbers)|[Linked List](#linked-list), [Math](#math), [Recursion](#recursion)|
+|147|[Odd Even Linked List](src\leetcode_328_odd_even_linked_list.py)|[328](https://leetcode.com/problems/odd-even-linked-list)|[Linked List](#linked-list)|
+|148|[Maximum Length of a Concatenated String with Unique Characters](src\leetcode_1239_maximum_length_of_a_concatenated_string_with_unique_characters.py)|[1239](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters)|[Array](#array), [String](#string), [Backtracking](#backtracking), [Bit Manipulation](#bit-manipulation)|
 ## <a name="Hard"></a>Hard Questions
 
 |ID|Problem|Leetcode ID|Categories|
@@ -568,6 +608,10 @@
 |39|[Arithmetic Slices II - Subsequence](src\leetcode_446_arithmetic_slices_ii_subsequence.py)|[446](https://leetcode.com/problems/arithmetic-slices-ii-subsequence)|[Array](#array), [Dynamic Programming](#dynamic-programming)|
 |40|[Smallest Missing Genetic Value in Each Subtree](src\leetcode_2003_smallest_missing_genetic_value_in_each_subtree.py)|[2003](https://leetcode.com/problems/smallest-missing-genetic-value-in-each-subtree)||
 |41|[Number of Unique Good Subsequences](src\leetcode_1987_number_of_unique_good_subsequences.py)|[1987](https://leetcode.com/problems/number-of-unique-good-subsequences)|[String](#string), [Dynamic Programming](#dynamic-programming)|
+|42|[Expression Add Operators](src\leetcode_282_expression_add_operators.py)|[282](https://leetcode.com/problems/expression-add-operators)|[Math](#math), [String](#string), [Backtracking](#backtracking)|
+|43|[Minimum Number of Operations to Make Array Continuous](src\leetcode_2009_minimum_number_of_operations_to_make_array_continuous.py)|[2009](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-continuous)|[Array](#array), [Binary Search](#binary-search)|
+|44|[Distinct Subsequences](src\leetcode_115_distinct_subsequences.py)|[115](https://leetcode.com/problems/distinct-subsequences)|[String](#string), [Dynamic Programming](#dynamic-programming)|
+|45|[GCD Sort of an Array](src\leetcode_1998_gcd_sort_of_an_array.py)|[1998](https://leetcode.com/problems/gcd-sort-of-an-array)|[Array](#array), [Math](#math), [Union Find](#union-find), [Sorting](#sorting)|
 
 # <a name='categories'></a>Categories
 ## <a name="array"></a>Array
@@ -728,6 +772,21 @@
 |152|[Count Special Quadruplets](src\leetcode_1995_count_special_quadruplets.py)|[1995](https://leetcode.com/problems/count-special-quadruplets)|[Easy](#Easy)|
 |153|[First Day Where You Have Been in All the Rooms](src\leetcode_1997_first_day_where_you_have_been_in_all_the_rooms.py)|[1997](https://leetcode.com/problems/first-day-where-you-have-been-in-all-the-rooms)|[Medium](#Medium)|
 |154|[The Number of Weak Characters in the Game](src\leetcode_1996_the_number_of_weak_characters_in_the_game.py)|[1996](https://leetcode.com/problems/the-number-of-weak-characters-in-the-game)|[Medium](#Medium)|
+|155|[Longest Turbulent Subarray](src\leetcode_978_longest_turbulent_subarray.py)|[978](https://leetcode.com/problems/longest-turbulent-subarray)|[Medium](#Medium)|
+|156|[Spiral Matrix](src\leetcode_54_spiral_matrix.py)|[54](https://leetcode.com/problems/spiral-matrix)|[Medium](#Medium)|
+|157|[Count Number of Pairs With Absolute Difference K](src\leetcode_2006_count_number_of_pairs_with_absolute_difference_k.py)|[2006](https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k)|[Easy](#Easy)|
+|158|[Find Original Array From Doubled Array](src\leetcode_2007_find_original_array_from_doubled_array.py)|[2007](https://leetcode.com/problems/find-original-array-from-doubled-array)|[Medium](#Medium)|
+|159|[Maximum Earnings From Taxi](src\leetcode_2008_maximum_earnings_from_taxi.py)|[2008](https://leetcode.com/problems/maximum-earnings-from-taxi)|[Medium](#Medium)|
+|160|[Minimum Number of Operations to Make Array Continuous](src\leetcode_2009_minimum_number_of_operations_to_make_array_continuous.py)|[2009](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-continuous)|[Hard](#Hard)|
+|161|[Final Value of Variable After Performing Operations](src\leetcode_2011_final_value_of_variable_after_performing_operations.py)|[2011](https://leetcode.com/problems/final-value-of-variable-after-performing-operations)|[Easy](#Easy)|
+|162|[Sum of Beauty in the Array](src\leetcode_2012_sum_of_beauty_in_the_array.py)|[2012](https://leetcode.com/problems/sum-of-beauty-in-the-array)|[Medium](#Medium)|
+|163|[Detect Squares](src\leetcode_2013_detect_squares.py)|[2013](https://leetcode.com/problems/detect-squares)|[Medium](#Medium)|
+|164|[Find Winner on a Tic Tac Toe Game](src\leetcode_1275_find_winner_on_a_tic_tac_toe_game.py)|[1275](https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game)|[Easy](#Easy)|
+|165|[Max Consecutive Ones](src\leetcode_485_max_consecutive_ones.py)|[485](https://leetcode.com/problems/max-consecutive-ones)|[Easy](#Easy)|
+|166|[3Sum](src\leetcode_15_3sum.py)|[15](https://leetcode.com/problems/3sum)|[Medium](#Medium)|
+|167|[Increasing Triplet Subsequence](src\leetcode_334_increasing_triplet_subsequence.py)|[334](https://leetcode.com/problems/increasing-triplet-subsequence)|[Medium](#Medium)|
+|168|[Maximum Length of a Concatenated String with Unique Characters](src\leetcode_1239_maximum_length_of_a_concatenated_string_with_unique_characters.py)|[1239](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters)|[Medium](#Medium)|
+|169|[GCD Sort of an Array](src\leetcode_1998_gcd_sort_of_an_array.py)|[1998](https://leetcode.com/problems/gcd-sort-of-an-array)|[Hard](#Hard)|
 ## <a name="backtracking"></a>Backtracking
 
 |ID|Problem|Leetcode ID|Difficulty|
@@ -750,6 +809,8 @@
 |16|[Sudoku Solver](src\leetcode_37_sudoku_solver.py)|[37](https://leetcode.com/problems/sudoku-solver)|[Hard](#Hard)|
 |17|[Minimum Number of Work Sessions to Finish the Tasks](src\leetcode_1986_minimum_number_of_work_sessions_to_finish_the_tasks.py)|[1986](https://leetcode.com/problems/minimum-number-of-work-sessions-to-finish-the-tasks)|[Medium](#Medium)|
 |18|[Unique Binary Search Trees II](src\leetcode_95_unique_binary_search_trees_ii.py)|[95](https://leetcode.com/problems/unique-binary-search-trees-ii)|[Medium](#Medium)|
+|19|[Expression Add Operators](src\leetcode_282_expression_add_operators.py)|[282](https://leetcode.com/problems/expression-add-operators)|[Hard](#Hard)|
+|20|[Maximum Length of a Concatenated String with Unique Characters](src\leetcode_1239_maximum_length_of_a_concatenated_string_with_unique_characters.py)|[1239](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters)|[Medium](#Medium)|
 ## <a name="binary-indexed-tree"></a>Binary Indexed Tree
 
 |ID|Problem|Leetcode ID|Difficulty|
@@ -785,6 +846,8 @@
 |24|[Maximum Profit in Job Scheduling](src\leetcode_1235_maximum_profit_in_job_scheduling.py)|[1235](https://leetcode.com/problems/maximum-profit-in-job-scheduling)|[Hard](#Hard)|
 |25|[Find Minimum in Rotated Sorted Array](src\leetcode_153_find_minimum_in_rotated_sorted_array.py)|[153](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array)|[Medium](#Medium)|
 |26|[First Bad Version](src\leetcode_278_first_bad_version.py)|[278](https://leetcode.com/problems/first-bad-version)|[Easy](#Easy)|
+|27|[Maximum Earnings From Taxi](src\leetcode_2008_maximum_earnings_from_taxi.py)|[2008](https://leetcode.com/problems/maximum-earnings-from-taxi)|[Medium](#Medium)|
+|28|[Minimum Number of Operations to Make Array Continuous](src\leetcode_2009_minimum_number_of_operations_to_make_array_continuous.py)|[2009](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-continuous)|[Hard](#Hard)|
 ## <a name="binary-search-tree"></a>Binary Search Tree
 
 |ID|Problem|Leetcode ID|Difficulty|
@@ -830,6 +893,7 @@
 |14|[Hamming Distance](src\leetcode_461_hamming_distance.py)|[461](https://leetcode.com/problems/hamming-distance)|[Easy](#Easy)|
 |15|[Reverse Bits](src\leetcode_190_reverse_bits.py)|[190](https://leetcode.com/problems/reverse-bits)|[Easy](#Easy)|
 |16|[Missing Number](src\leetcode_268_missing_number.py)|[268](https://leetcode.com/problems/missing-number)|[Easy](#Easy)|
+|17|[Maximum Length of a Concatenated String with Unique Characters](src\leetcode_1239_maximum_length_of_a_concatenated_string_with_unique_characters.py)|[1239](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters)|[Medium](#Medium)|
 ## <a name="bitmask"></a>Bitmask
 
 |ID|Problem|Leetcode ID|Difficulty|
@@ -875,6 +939,7 @@
 |9|[Check if All Characters Have Equal Number of Occurrences](src\leetcode_1941_check_if_all_characters_have_equal_number_of_occurrences.py)|[1941](https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences)|[Easy](#Easy)|
 |10|[First Unique Character in a String](src\leetcode_387_first_unique_character_in_a_string.py)|[387](https://leetcode.com/problems/first-unique-character-in-a-string)|[Easy](#Easy)|
 |11|[Maximum Number of Balloons](src\leetcode_1189_maximum_number_of_balloons.py)|[1189](https://leetcode.com/problems/maximum-number-of-balloons)|[Easy](#Easy)|
+|12|[Detect Squares](src\leetcode_2013_detect_squares.py)|[2013](https://leetcode.com/problems/detect-squares)|[Medium](#Medium)|
 ## <a name="data-stream"></a>Data Stream
 
 |ID|Problem|Leetcode ID|Difficulty|
@@ -912,6 +977,7 @@
 |5|[Range Sum Query - Immutable](src\leetcode_303_range_sum_query_immutable.py)|[303](https://leetcode.com/problems/range-sum-query-immutable)|[Easy](#Easy)|
 |6|[Operations on Tree](src\leetcode_1993_operations_on_tree.py)|[1993](https://leetcode.com/problems/operations-on-tree)|[Medium](#Medium)|
 |7|[Min Stack](src\leetcode_155_min_stack.py)|[155](https://leetcode.com/problems/min-stack)|[Easy](#Easy)|
+|8|[Detect Squares](src\leetcode_2013_detect_squares.py)|[2013](https://leetcode.com/problems/detect-squares)|[Medium](#Medium)|
 ## <a name="divide-and-conquer"></a>Divide and Conquer
 
 |ID|Problem|Leetcode ID|Difficulty|
@@ -971,6 +1037,10 @@
 |43|[Arithmetic Slices II - Subsequence](src\leetcode_446_arithmetic_slices_ii_subsequence.py)|[446](https://leetcode.com/problems/arithmetic-slices-ii-subsequence)|[Hard](#Hard)|
 |44|[First Day Where You Have Been in All the Rooms](src\leetcode_1997_first_day_where_you_have_been_in_all_the_rooms.py)|[1997](https://leetcode.com/problems/first-day-where-you-have-been-in-all-the-rooms)|[Medium](#Medium)|
 |45|[Number of Unique Good Subsequences](src\leetcode_1987_number_of_unique_good_subsequences.py)|[1987](https://leetcode.com/problems/number-of-unique-good-subsequences)|[Hard](#Hard)|
+|46|[Longest Turbulent Subarray](src\leetcode_978_longest_turbulent_subarray.py)|[978](https://leetcode.com/problems/longest-turbulent-subarray)|[Medium](#Medium)|
+|47|[Maximum Earnings From Taxi](src\leetcode_2008_maximum_earnings_from_taxi.py)|[2008](https://leetcode.com/problems/maximum-earnings-from-taxi)|[Medium](#Medium)|
+|48|[Distinct Subsequences](src\leetcode_115_distinct_subsequences.py)|[115](https://leetcode.com/problems/distinct-subsequences)|[Hard](#Hard)|
+|49|[Longest Palindromic Substring](src\leetcode_5_longest_palindromic_substring.py)|[5](https://leetcode.com/problems/longest-palindromic-substring)|[Medium](#Medium)|
 ## <a name="enumeration"></a>Enumeration
 
 |ID|Problem|Leetcode ID|Difficulty|
@@ -1036,6 +1106,8 @@
 |35|[Maximum Matrix Sum](src\leetcode_1975_maximum_matrix_sum.py)|[1975](https://leetcode.com/problems/maximum-matrix-sum)|[Medium](#Medium)|
 |36|[Patching Array](src\leetcode_330_patching_array.py)|[330](https://leetcode.com/problems/patching-array)|[Hard](#Hard)|
 |37|[The Number of Weak Characters in the Game](src\leetcode_1996_the_number_of_weak_characters_in_the_game.py)|[1996](https://leetcode.com/problems/the-number-of-weak-characters-in-the-game)|[Medium](#Medium)|
+|38|[Find Original Array From Doubled Array](src\leetcode_2007_find_original_array_from_doubled_array.py)|[2007](https://leetcode.com/problems/find-original-array-from-doubled-array)|[Medium](#Medium)|
+|39|[Increasing Triplet Subsequence](src\leetcode_334_increasing_triplet_subsequence.py)|[334](https://leetcode.com/problems/increasing-triplet-subsequence)|[Medium](#Medium)|
 ## <a name="hash-function"></a>Hash Function
 
 |ID|Problem|Leetcode ID|Difficulty|
@@ -1089,6 +1161,11 @@
 |42|[Roman to Integer](src\leetcode_13_roman_to_integer.py)|[13](https://leetcode.com/problems/roman-to-integer)|[Easy](#Easy)|
 |43|[Missing Number](src\leetcode_268_missing_number.py)|[268](https://leetcode.com/problems/missing-number)|[Easy](#Easy)|
 |44|[Maximum Number of Balloons](src\leetcode_1189_maximum_number_of_balloons.py)|[1189](https://leetcode.com/problems/maximum-number-of-balloons)|[Easy](#Easy)|
+|45|[Find Original Array From Doubled Array](src\leetcode_2007_find_original_array_from_doubled_array.py)|[2007](https://leetcode.com/problems/find-original-array-from-doubled-array)|[Medium](#Medium)|
+|46|[Detect Squares](src\leetcode_2013_detect_squares.py)|[2013](https://leetcode.com/problems/detect-squares)|[Medium](#Medium)|
+|47|[Find Winner on a Tic Tac Toe Game](src\leetcode_1275_find_winner_on_a_tic_tac_toe_game.py)|[1275](https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game)|[Easy](#Easy)|
+|48|[Longest Substring Without Repeating Characters](src\leetcode_3_longest_substring_without_repeating_characters.py)|[3](https://leetcode.com/problems/longest-substring-without-repeating-characters)|[Medium](#Medium)|
+|49|[Intersection of Two Linked Lists](src\leetcode_160_intersection_of_two_linked_lists.py)|[160](https://leetcode.com/problems/intersection-of-two-linked-lists)|[Easy](#Easy)|
 ## <a name="heap-priority-queue"></a>Heap (Priority Queue)
 
 |ID|Problem|Leetcode ID|Difficulty|
@@ -1130,6 +1207,9 @@
 |5|[Palindrome Linked List](src\leetcode_234_palindrome_linked_list.py)|[234](https://leetcode.com/problems/palindrome-linked-list)|[Easy](#Easy)|
 |6|[Linked List Cycle](src\leetcode_141_linked_list_cycle.py)|[141](https://leetcode.com/problems/linked-list-cycle)|[Easy](#Easy)|
 |7|[Reverse Linked List](src\leetcode_206_reverse_linked_list.py)|[206](https://leetcode.com/problems/reverse-linked-list)|[Easy](#Easy)|
+|8|[Add Two Numbers](src\leetcode_2_add_two_numbers.py)|[2](https://leetcode.com/problems/add-two-numbers)|[Medium](#Medium)|
+|9|[Odd Even Linked List](src\leetcode_328_odd_even_linked_list.py)|[328](https://leetcode.com/problems/odd-even-linked-list)|[Medium](#Medium)|
+|10|[Intersection of Two Linked Lists](src\leetcode_160_intersection_of_two_linked_lists.py)|[160](https://leetcode.com/problems/intersection-of-two-linked-lists)|[Easy](#Easy)|
 ## <a name="math"></a>Math
 
 |ID|Problem|Leetcode ID|Difficulty|
@@ -1178,6 +1258,9 @@
 |42|[Roman to Integer](src\leetcode_13_roman_to_integer.py)|[13](https://leetcode.com/problems/roman-to-integer)|[Easy](#Easy)|
 |43|[Missing Number](src\leetcode_268_missing_number.py)|[268](https://leetcode.com/problems/missing-number)|[Easy](#Easy)|
 |44|[Basic Calculator](src\leetcode_224_basic_calculator.py)|[224](https://leetcode.com/problems/basic-calculator)|[Hard](#Hard)|
+|45|[Expression Add Operators](src\leetcode_282_expression_add_operators.py)|[282](https://leetcode.com/problems/expression-add-operators)|[Hard](#Hard)|
+|46|[Add Two Numbers](src\leetcode_2_add_two_numbers.py)|[2](https://leetcode.com/problems/add-two-numbers)|[Medium](#Medium)|
+|47|[GCD Sort of an Array](src\leetcode_1998_gcd_sort_of_an_array.py)|[1998](https://leetcode.com/problems/gcd-sort-of-an-array)|[Hard](#Hard)|
 ## <a name="matrix"></a>Matrix
 
 |ID|Problem|Leetcode ID|Difficulty|
@@ -1204,6 +1287,8 @@
 |20|[Minimize the Difference Between Target and Chosen Elements](src\leetcode_1981_minimize_the_difference_between_target_and_chosen_elements.py)|[1981](https://leetcode.com/problems/minimize-the-difference-between-target-and-chosen-elements)|[Medium](#Medium)|
 |21|[Sudoku Solver](src\leetcode_37_sudoku_solver.py)|[37](https://leetcode.com/problems/sudoku-solver)|[Hard](#Hard)|
 |22|[Find All Groups of Farmland](src\leetcode_1992_find_all_groups_of_farmland.py)|[1992](https://leetcode.com/problems/find-all-groups-of-farmland)|[Medium](#Medium)|
+|23|[Spiral Matrix](src\leetcode_54_spiral_matrix.py)|[54](https://leetcode.com/problems/spiral-matrix)|[Medium](#Medium)|
+|24|[Find Winner on a Tic Tac Toe Game](src\leetcode_1275_find_winner_on_a_tic_tac_toe_game.py)|[1275](https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game)|[Easy](#Easy)|
 ## <a name="memoization"></a>Memoization
 
 |ID|Problem|Leetcode ID|Difficulty|
@@ -1283,6 +1368,7 @@
 |7|[Reverse Linked List](src\leetcode_206_reverse_linked_list.py)|[206](https://leetcode.com/problems/reverse-linked-list)|[Easy](#Easy)|
 |8|[Power of Three](src\leetcode_326_power_of_three.py)|[326](https://leetcode.com/problems/power-of-three)|[Easy](#Easy)|
 |9|[Basic Calculator](src\leetcode_224_basic_calculator.py)|[224](https://leetcode.com/problems/basic-calculator)|[Hard](#Hard)|
+|10|[Add Two Numbers](src\leetcode_2_add_two_numbers.py)|[2](https://leetcode.com/problems/add-two-numbers)|[Medium](#Medium)|
 ## <a name="rolling-hash"></a>Rolling Hash
 
 |ID|Problem|Leetcode ID|Difficulty|
@@ -1309,6 +1395,9 @@
 |10|[Add Strings](src\leetcode_415_add_strings.py)|[415](https://leetcode.com/problems/add-strings)|[Easy](#Easy)|
 |11|[Complex Number Multiplication](src\leetcode_537_complex_number_multiplication.py)|[537](https://leetcode.com/problems/complex-number-multiplication)|[Medium](#Medium)|
 |12|[Fizz Buzz](src\leetcode_412_fizz_buzz.py)|[412](https://leetcode.com/problems/fizz-buzz)|[Easy](#Easy)|
+|13|[Spiral Matrix](src\leetcode_54_spiral_matrix.py)|[54](https://leetcode.com/problems/spiral-matrix)|[Medium](#Medium)|
+|14|[Final Value of Variable After Performing Operations](src\leetcode_2011_final_value_of_variable_after_performing_operations.py)|[2011](https://leetcode.com/problems/final-value-of-variable-after-performing-operations)|[Easy](#Easy)|
+|15|[Find Winner on a Tic Tac Toe Game](src\leetcode_1275_find_winner_on_a_tic_tac_toe_game.py)|[1275](https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game)|[Easy](#Easy)|
 ## <a name="sliding-window"></a>Sliding Window
 
 |ID|Problem|Leetcode ID|Difficulty|
@@ -1317,6 +1406,8 @@
 |2|[Longest Substring Of All Vowels in Order](src\leetcode_1839_longest_substring_of_all_vowels_in_order.py)|[1839](https://leetcode.com/problems/longest-substring-of-all-vowels-in-order)|[Medium](#Medium)|
 |3|[Maximum Length of Repeated Subarray](src\leetcode_718_maximum_length_of_repeated_subarray.py)|[718](https://leetcode.com/problems/maximum-length-of-repeated-subarray)|[Medium](#Medium)|
 |4|[Minimum Window Substring](src\leetcode_76_minimum_window_substring.py)|[76](https://leetcode.com/problems/minimum-window-substring)|[Hard](#Hard)|
+|5|[Longest Turbulent Subarray](src\leetcode_978_longest_turbulent_subarray.py)|[978](https://leetcode.com/problems/longest-turbulent-subarray)|[Medium](#Medium)|
+|6|[Longest Substring Without Repeating Characters](src\leetcode_3_longest_substring_without_repeating_characters.py)|[3](https://leetcode.com/problems/longest-substring-without-repeating-characters)|[Medium](#Medium)|
 ## <a name="sorting"></a>Sorting
 
 |ID|Problem|Leetcode ID|Difficulty|
@@ -1357,6 +1448,10 @@
 |34|[Orderly Queue](src\leetcode_899_orderly_queue.py)|[899](https://leetcode.com/problems/orderly-queue)|[Hard](#Hard)|
 |35|[Missing Number](src\leetcode_268_missing_number.py)|[268](https://leetcode.com/problems/missing-number)|[Easy](#Easy)|
 |36|[The Number of Weak Characters in the Game](src\leetcode_1996_the_number_of_weak_characters_in_the_game.py)|[1996](https://leetcode.com/problems/the-number-of-weak-characters-in-the-game)|[Medium](#Medium)|
+|37|[Find Original Array From Doubled Array](src\leetcode_2007_find_original_array_from_doubled_array.py)|[2007](https://leetcode.com/problems/find-original-array-from-doubled-array)|[Medium](#Medium)|
+|38|[Maximum Earnings From Taxi](src\leetcode_2008_maximum_earnings_from_taxi.py)|[2008](https://leetcode.com/problems/maximum-earnings-from-taxi)|[Medium](#Medium)|
+|39|[3Sum](src\leetcode_15_3sum.py)|[15](https://leetcode.com/problems/3sum)|[Medium](#Medium)|
+|40|[GCD Sort of an Array](src\leetcode_1998_gcd_sort_of_an_array.py)|[1998](https://leetcode.com/problems/gcd-sort-of-an-array)|[Hard](#Hard)|
 ## <a name="stack"></a>Stack
 
 |ID|Problem|Leetcode ID|Difficulty|
@@ -1453,6 +1548,12 @@
 |75|[Maximum Number of Balloons](src\leetcode_1189_maximum_number_of_balloons.py)|[1189](https://leetcode.com/problems/maximum-number-of-balloons)|[Easy](#Easy)|
 |76|[Reverse Only Letters](src\leetcode_917_reverse_only_letters.py)|[917](https://leetcode.com/problems/reverse-only-letters)|[Easy](#Easy)|
 |77|[Number of Unique Good Subsequences](src\leetcode_1987_number_of_unique_good_subsequences.py)|[1987](https://leetcode.com/problems/number-of-unique-good-subsequences)|[Hard](#Hard)|
+|78|[Expression Add Operators](src\leetcode_282_expression_add_operators.py)|[282](https://leetcode.com/problems/expression-add-operators)|[Hard](#Hard)|
+|79|[Final Value of Variable After Performing Operations](src\leetcode_2011_final_value_of_variable_after_performing_operations.py)|[2011](https://leetcode.com/problems/final-value-of-variable-after-performing-operations)|[Easy](#Easy)|
+|80|[Distinct Subsequences](src\leetcode_115_distinct_subsequences.py)|[115](https://leetcode.com/problems/distinct-subsequences)|[Hard](#Hard)|
+|81|[Longest Substring Without Repeating Characters](src\leetcode_3_longest_substring_without_repeating_characters.py)|[3](https://leetcode.com/problems/longest-substring-without-repeating-characters)|[Medium](#Medium)|
+|82|[Longest Palindromic Substring](src\leetcode_5_longest_palindromic_substring.py)|[5](https://leetcode.com/problems/longest-palindromic-substring)|[Medium](#Medium)|
+|83|[Maximum Length of a Concatenated String with Unique Characters](src\leetcode_1239_maximum_length_of_a_concatenated_string_with_unique_characters.py)|[1239](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters)|[Medium](#Medium)|
 ## <a name="string-matching"></a>String Matching
 
 |ID|Problem|Leetcode ID|Difficulty|
@@ -1521,6 +1622,8 @@
 |26|[Linked List Cycle](src\leetcode_141_linked_list_cycle.py)|[141](https://leetcode.com/problems/linked-list-cycle)|[Easy](#Easy)|
 |27|[Merge Sorted Array](src\leetcode_88_merge_sorted_array.py)|[88](https://leetcode.com/problems/merge-sorted-array)|[Easy](#Easy)|
 |28|[Reverse Only Letters](src\leetcode_917_reverse_only_letters.py)|[917](https://leetcode.com/problems/reverse-only-letters)|[Easy](#Easy)|
+|29|[3Sum](src\leetcode_15_3sum.py)|[15](https://leetcode.com/problems/3sum)|[Medium](#Medium)|
+|30|[Intersection of Two Linked Lists](src\leetcode_160_intersection_of_two_linked_lists.py)|[160](https://leetcode.com/problems/intersection-of-two-linked-lists)|[Easy](#Easy)|
 ## <a name="union-find"></a>Union Find
 
 |ID|Problem|Leetcode ID|Difficulty|
@@ -1529,6 +1632,7 @@
 |2|[Count Sub Islands](src\leetcode_1905_count_sub_islands.py)|[1905](https://leetcode.com/problems/count-sub-islands)|[Medium](#Medium)|
 |3|[Making A Large Island](src\leetcode_827_making_a_large_island.py)|[827](https://leetcode.com/problems/making-a-large-island)|[Hard](#Hard)|
 |4|[Last Day Where You Can Still Cross](src\leetcode_1970_last_day_where_you_can_still_cross.py)|[1970](https://leetcode.com/problems/last-day-where-you-can-still-cross)|[Hard](#Hard)|
+|5|[GCD Sort of an Array](src\leetcode_1998_gcd_sort_of_an_array.py)|[1998](https://leetcode.com/problems/gcd-sort-of-an-array)|[Hard](#Hard)|
 
 
 Automatically generated using                     [Leet2Git](https://github.com/yurirocha15/leetcode2github).
